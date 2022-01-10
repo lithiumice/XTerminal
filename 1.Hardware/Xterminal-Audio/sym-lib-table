@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kicad_lceda)(type Legacy)(uri ${KIPRJMOD}/kicad_lceda.lib)(options "")(descr ""))
+)

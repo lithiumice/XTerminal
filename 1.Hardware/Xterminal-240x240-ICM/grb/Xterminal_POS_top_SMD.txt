@@ -1,0 +1,67 @@
+### Module positions - created on 2021-12-09 23:40
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 32.250mm, Pcb Width 32.250mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 187.960mm ,124.460mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U5            MCP73831-2-OT       SOT-23-5                      7.6940     2.9560     8.6440     -244.8265   -90.0    top       SMD
+Q6            AO3400 Q_NMOS_GSD   SOT-23                        6.8580     14.7320    7.7955     -235.1380   180.0    top       SMD
+C1            100nF               C_0402_1005Metric_Pad0.74x0.. 19.5580    29.5235    19.5580    -218.8290   -90.0    top       SMD
+R7            10K                 R_0402_1005Metric_Pad0.72x0.. 22.0085    8.8900     21.4110    -240.0300     0.0    top       SMD
+D2            D_Small             D_SOD-323                     25.6540    15.2400    25.6540    -232.6300   -90.0    top       SMD
+D1            D_Small             D_SOD-323                     22.8980    27.5230    21.8480    -221.3970     0.0    top       SMD
+C2            2.2uF               C_0402_1005Metric_Pad0.74x0.. 23.5560    24.1300    23.5560    -225.3575    90.0    top       SMD
+SW4           SW_Push             Panasonic_EVQPUJ_EVQPUA       1.7780     23.6600    0.9280     -222.6350    90.0    top       SMD
+C12           0.1uF               C_0402_1005Metric_Pad0.74x0.. 5.1260     10.2820    5.1260     -238.0705   -90.0    top       SMD
+R20           10R                 R_0402_1005Metric_Pad0.72x0.. 7.4555     17.0180    6.8580     -231.9020     0.0    top       SMD
+Q3            AO3400 Q_NMOS_GSD   SOT-23                        24.2155    2.7280     23.2780    -245.2420     0.0    top       SMD
+R8            1K                  R_0402_1005Metric_Pad0.72x0.. 6.8580     6.3500     6.8580     -243.1675    90.0    top       SMD
+R18           10K                 R_0402_1005Metric_Pad0.72x0.. 22.0085    11.1473    21.4110    -237.7727     0.0    top       SMD
+R10           5.1K                R_0402_1005Metric_Pad0.72x0.. 16.7640    10.5785    16.7640    -238.9390    90.0    top       SMD
+R16           10K                 R_0402_1005Metric_Pad0.72x0.. 6.6040     19.5960    7.2015     -229.3240   180.0    top       SMD
+U6            CH9102              QFN-24-1EP_4x4mm_P0.5mm_EP2.. 15.2400    15.9900    13.9900    -234.8675    90.0    top       SMD
+Q5            BC847BS             SOT-363_SC-70-6               6.6040     21.6280    5.6540     -226.6420     0.0    top       SMD
+SW1           SW_Push             Panasonic_EVQPUJ_EVQPUA       29.8840    15.5340    30.7340    -236.0110   -90.0    top       SMD
+R3            20K                 R_0402_1005Metric_Pad0.72x0.. 21.6015    19.9375    21.0040    -228.9825     0.0    top       SMD
+C14           100nF               C_0402_1005Metric_Pad0.74x0.. 7.4368     18.0251    6.8693     -230.8949     0.0    top       SMD
+R1            20K                 R_0402_1005Metric_Pad0.72x0.. 26.4455    27.9730    27.0430    -220.9470   180.0    top       SMD
+R11           20K                 R_0402_1005Metric_Pad0.72x0.. 26.0115    5.7245     26.0115    -242.5980   -90.0    top       SMD
+Q4            AO3401 Q_PMOS_GSD   SOT-23                        28.1155    2.7280     27.1780    -245.2420     0.0    top       SMD
+U2            ICM-20602           LGA-16_3x3mm_P0.5mm_LayoutB.. 25.1460    20.5740    23.9210    -227.3460     0.0    top       SMD
+C11           100nF               C_0402_1005Metric_Pad0.74x0.. 9.1620     10.2695    9.1620     -239.2180    90.0    top       SMD
+R14           100K                R_0402_1005Metric_Pad0.72x0.. 7.1580     10.2820    7.1580     -239.2355    90.0    top       SMD
+D4            LED_Small           C_0402_1005Metric_Pad0.74x0.. 5.8420     6.3500     5.8420     -242.0025   -90.0    top       SMD
+U3            USBC                USB_C_Receptacle_XKB_U262-1.. 15.4940    2.5400     0.0000     0.0000        0.0    top       SMD
+C13           100nF               C_0402_1005Metric_Pad0.74x0.. 18.2880    10.6085    18.2880    -238.8790    90.0    top       SMD
+D5            D_Small             D_SOD-323                     27.5115    6.2245     27.5115    -241.6455   -90.0    top       SMD
+R19           10K                 R_0402_1005Metric_Pad0.72x0.. 7.6200     12.4460    7.0225     -236.4740     0.0    top       SMD
+AE1           Antenna             Johanson_2450AT43F0100        4.1200     29.9720    6.9700     -218.9480   180.0    top       SMD
+BZ1           Buzzer              DET402                        22.1440    29.9030    22.1440    -219.0170     0.0    top       SMD
+R6            2K                  R_0402_1005Metric_Pad0.72x0.. 8.9240     6.3475     8.9240     -241.9750   -90.0    top       SMD
+R9            10K                 R_0402_1005Metric_Pad0.72x0.. 7.8740     6.3500     7.8740     -241.9725   -90.0    top       SMD
+C4            10nF                C_0402_1005Metric_Pad0.74x0.. 25.5880    24.1300    25.5880    -225.3575    90.0    top       SMD
+R4            0R                  R_0402_1005Metric_Pad0.72x0.. 21.3360    24.1300    21.3360    -225.3875    90.0    top       SMD
+SW5           SW_Push             Panasonic_EVQPUJ_EVQPUA       1.7780     7.8600     0.9280     -238.4350    90.0    top       SMD
+C3            100nF               C_0402_1005Metric_Pad0.74x0.. 24.5720    24.1300    24.5720    -225.3575    90.0    top       SMD
+C8            10nF                C_0402_1005Metric_Pad0.74x0.. 21.9885    12.2760    21.4210    -236.6440     0.0    top       SMD
+U4            MIC5219-3.3YM5      SOT-23-5                      25.1460    10.6680    24.1960    -239.3895    90.0    top       SMD
+SW3           SW_Push             Panasonic_EVQPUJ_EVQPUA       29.8840    23.4530    30.7340    -228.0920   -90.0    top       SMD
+R15           100K                R_0402_1005Metric_Pad0.72x0.. 6.1420     10.2820    6.1420     -238.0405   -90.0    top       SMD
+Q1            AO3400 Q_NMOS_GSD   SOT-23                        29.3980    29.3855    28.4480    -220.4720    90.0    top       SMD
+C6            1uF                 C_0402_1005Metric_Pad0.74x0.. 6.5605     24.8740    7.1280     -224.0460   180.0    top       SMD
+C5            100nF               C_0402_1005Metric_Pad0.74x0.. 26.6040    24.1300    26.6040    -225.3575    90.0    top       SMD
+C9            10uF                C_0402_1005Metric_Pad0.74x0.. 21.9885    10.0187    21.4210    -238.9013     0.0    top       SMD
+R2            20K                 R_0402_1005Metric_Pad0.72x0.. 21.6015    20.9535    22.1990    -227.9665   180.0    top       SMD
+R5            10K                 R_0402_1005Metric_Pad0.72x0.. 6.5605     25.8900    5.9630     -223.0300     0.0    top       SMD
+R17           10K                 R_0402_1005Metric_Pad0.72x0.. 6.6040     23.6600    7.2015     -225.2600   180.0    top       SMD
+R12           20K                 R_0402_1005Metric_Pad0.72x0.. 22.8615    5.7220     22.8615    -243.7955    90.0    top       SMD
+D6            D_Small             D_SOD-323                     29.5615    6.2220     29.5615    -241.6480   -90.0    top       SMD
+R13           5.1K                R_0402_1005Metric_Pad0.72x0.. 13.2080    10.5785    13.2080    -238.9390    90.0    top       SMD
+SW2           SW_Push             Panasonic_EVQPUJ_EVQPUA       1.7780     15.7480    0.9280     -230.5470    90.0    top       SMD
+C10           10uF                C_0402_1005Metric_Pad0.74x0.. 8.1460     10.2695    8.1460     -239.2180    90.0    top       SMD
+U1            ESP32-PICO-D4       QFN-48-1EP_7x7mm_P0.5mm_EP5.. 14.2240    25.4000    10.7865    -220.7700     0.0    top       SMD
+Q2            AO3401 Q_PMOS_GSD   SOT-23                        22.3520    15.2400    23.2895    -234.6300   180.0    top       SMD
+D3            D_Small             D_SOD-323                     24.4275    6.2275     24.4275    -243.7425    90.0    top       SMD
+C7            10uF                C_0402_1005Metric_Pad0.74x0.. 4.8240     6.3500     4.8240     -242.0025   -90.0    top       SMD
+## End

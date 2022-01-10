@@ -1,0 +1,77 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "XTerminal"
+Date "2021-12-03"
+Rev "v1.0"
+Comp "LithiumStudio"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-PICO-D4 U?
+U 1 1 61A72BC1
+P 3900 3700
+F 0 "U?" H 3900 2011 50  0000 C CNN
+F 1 "ESP32-PICO-D4" H 3900 1920 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm" H 3900 2000 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf" H 4150 2700 50  0001 C CNN
+	1    3900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 61AA2E89
+P 3700 1800
+F 0 "#PWR?" H 3700 1650 50  0001 C CNN
+F 1 "+3.3VA" H 3715 1973 50  0000 C CNN
+F 2 "" H 3700 1800 50  0001 C CNN
+F 3 "" H 3700 1800 50  0001 C CNN
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61AA4CCF
+P 2750 1250
+F 0 "#PWR?" H 2750 1100 50  0001 C CNN
+F 1 "+3.3V" H 2765 1423 50  0000 C CNN
+F 2 "" H 2750 1250 50  0001 C CNN
+F 3 "" H 2750 1250 50  0001 C CNN
+	1    2750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 61AA6B01
+P 2750 1550
+F 0 "#PWR?" H 2750 1400 50  0001 C CNN
+F 1 "+3.3VA" H 2765 1723 50  0000 C CNN
+F 2 "" H 2750 1550 50  0001 C CNN
+F 3 "" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61AA7129
+P 2750 1400
+F 0 "R?" H 2818 1446 50  0000 L CNN
+F 1 "0R" H 2818 1355 50  0000 L CNN
+F 2 "" H 2750 1400 50  0001 C CNN
+F 3 "~" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1250 2750 1300
+Wire Wire Line
+	2750 1500 2750 1550
+Wire Wire Line
+	3700 1800 3700 2100
+$EndSCHEMATC

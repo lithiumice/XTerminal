@@ -1,0 +1,10 @@
+### Module positions - created on 2021-12-09 23:40
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 32.250mm, Pcb Width 32.250mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 187.960mm ,124.460mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+TP2           TestPoint           TestPoint_Pad_D1.0mm          5.1054     27.3812    5.1054     -221.5388     0.0    top       VIRTUAL
+TP1           TestPoint           TestPoint_Pad_D1.0mm          7.2136     27.3812    7.2136     -221.5388     0.0    top       VIRTUAL
+## End
