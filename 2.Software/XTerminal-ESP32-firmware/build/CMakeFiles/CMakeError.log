@@ -1,0 +1,158 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_7513b/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_7513b.dir/build.make CMakeFiles/cmTC_7513b.dir/build
+make[1]: Entering directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe"   -v -o CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\LITHIU~1\AppData\Local\Temp\ccpaZIz0.s
+GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d23ebdb4e081c97b257cdcdb7f0d8f7e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj C:\Users\LITHIU~1\AppData\Local\Temp\ccpaZIz0.s
+GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703
+COMPILER_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_7513b
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe"  -v "CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj"  -o cmTC_7513b 
+Using built-in specs.
+COLLECT_GCC=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe
+COLLECT_LTO_WRAPPER=C:/Program\ Files\ (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm64-1) 
+COMPILER_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7513b.exe' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\LITHIU~1\AppData\Local\Temp\ccUrVIja.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_7513b.exe C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. CMakeFiles/cmTC_7513b.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+make[1]: Leaving directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/3.21.3/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/cmTC_7513b
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Debug/cmTC_7513b
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Development/cmTC_7513b
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_8dc96/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_8dc96.dir/build.make CMakeFiles/cmTC_8dc96.dir/build
+make[1]: Entering directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe"   -v -o CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm64-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\LITHIU~1\AppData\Local\Temp\ccDYmnKT.s
+GNU C++ (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"
+ignoring duplicate directory "C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++ (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 199b949b87568ce5f1a18d5adc9fa901
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\LITHIU~1\AppData\Local\Temp\ccDYmnKT.s
+GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703
+COMPILER_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8dc96
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe"  -v "CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj"  -o cmTC_8dc96 
+Using built-in specs.
+COLLECT_GCC=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe
+COLLECT_LTO_WRAPPER=C:/Program\ Files\ (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm64-1) 
+COMPILER_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8dc96.exe' '-mtune=generic' '-march=x86-64'
+ C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\LITHIU~1\AppData\Local\Temp\ccBLzEOd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_8dc96.exe C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LC:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. CMakeFiles/cmTC_8dc96.dir/CMakeCXXCompilerABI.cpp.obj -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+make[1]: Leaving directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/3.21.3/CMakeDetermineCompilerABI_CXX.bin'
+Unable to find the executable at any of:
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/cmTC_8dc96
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Debug/cmTC_8dc96
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Development/cmTC_8dc96
+
+
+Detecting CXX [-std=c++14] compiler features failed to compile with the following output:
+Change Dir: C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_3bb3b/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_3bb3b.dir/build.make CMakeFiles/cmTC_3bb3b.dir/build
+make[1]: Entering directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bb3b.dir/feature_tests.cxx.obj
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe"   -std=c++14 -o CMakeFiles/cmTC_3bb3b.dir/feature_tests.cxx.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3bb3b
+"C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe" "CMakeFiles/cmTC_3bb3b.dir/feature_tests.cxx.obj"  -o cmTC_3bb3b 
+make[1]: Leaving directory 'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/feature_tests.bin'
+Unable to find the executable at any of:
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/cmTC_3bb3b
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Debug/cmTC_3bb3b
+  C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/CMakeTmp/Development/cmTC_3bb3b
+
+

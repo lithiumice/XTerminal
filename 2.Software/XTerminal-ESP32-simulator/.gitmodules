@@ -1,0 +1,15 @@
+[submodule "LVGL.Simulator/lvgl"]
+	path = LVGL.Simulator/lvgl
+	url = https://github.com/lvgl/lvgl
+[submodule "LVGL.Simulator/lv_demos"]
+	path = LVGL.Simulator/lv_demos
+	url = https://github.com/lvgl/lv_demos
+[submodule "LVGL.Simulator/lv_drivers"]
+	path = LVGL.Simulator/lv_drivers
+	url = https://github.com/lvgl/lv_drivers
+[submodule "LVGL.Simulator/freetype"]
+	path = LVGL.Simulator/freetype
+	url = https://github.com/freetype/freetype
+[submodule "LVGL.Simulator/lv_lib_freetype"]
+	path = LVGL.Simulator/lv_lib_freetype
+	url = https://github.com/lvgl/lv_lib_freetype

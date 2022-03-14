@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "name": "z jx",
+        "url": "https://os.mbed.com/users/sarahbest/"
+    },
+    "build": {
+        "builder": "MbedLibBuilder"
+    },
+    "description": "ICM20602_I2C(invensense)---stm32f767zi",
+    "examples": [
+        "https://os.mbed.com/users/sarahbest/code/IMU_fusion_9DOF/"
+    ],
+    "frameworks": "mbed",
+    "keywords": [],
+    "name": "ICM20602_I2C",
+    "platforms": "*",
+    "repository": {
+        "type": "hg",
+        "url": "https://os.mbed.com/users/sarahbest/code/ICM20602_I2C/"
+    },
+    "version": "0.0.0+sha.74690f762c0f"
+}

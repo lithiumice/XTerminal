@@ -1,0 +1,30 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.19042 - AMD64
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/3.21.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/3.21.3/CompilerIdCXX/a.exe"
+

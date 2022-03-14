@@ -1,0 +1,5 @@
+C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/Production.dir
+C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/edit_cache.dir
+C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/Debug.dir
+C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles/rebuild_cache.dir
