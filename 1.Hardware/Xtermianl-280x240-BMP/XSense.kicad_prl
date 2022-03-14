@@ -74,27 +74,15 @@
   "project": {
     "files": [
       {
-        "name": "XSense.kicad_pcb",
+        "name": "XSense.kicad_sch",
         "open": false,
         "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": 35,
+          "display": 1,
+          "maximized": false,
+          "pos_x": 1496,
+          "pos_y": 203,
           "size_x": 1936,
-          "size_y": 1053
-        }
-      },
-      {
-        "name": "XSense.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": 35,
-          "size_x": 1936,
-          "size_y": 1053
+          "size_y": 1042
         }
       }
     ]

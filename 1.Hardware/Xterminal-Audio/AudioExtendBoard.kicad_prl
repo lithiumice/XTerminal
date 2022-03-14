@@ -72,27 +72,15 @@
   "project": {
     "files": [
       {
-        "name": "AudioExtendBoard.kicad_pcb",
+        "name": "AudioExtendBoard.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": -8,
-          "pos_y": 35,
+          "pos_y": -8,
           "size_x": 1936,
-          "size_y": 1053
-        }
-      },
-      {
-        "name": "AudioExtendBoard.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": 35,
-          "size_x": 1936,
-          "size_y": 1053
+          "size_y": 1048
         }
       }
     ]
